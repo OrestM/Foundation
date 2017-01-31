@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svW-WM-4qZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="fOn-xM-3w6"/>
+                                </constraints>
+                                <state key="normal" title="Cancel"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fOn-xM-3w6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="fOn-xM-3w6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="cancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHY-QV-FOg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1J3-Zv-W8g">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="HLI-GR-8Q9"/>
+                                </constraints>
+                                <state key="normal" title="Resume"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HLI-GR-8Q9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="HLI-GR-8Q9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="resume:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAd-jV-7nn"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q4v-zT-zxj">
+                                <rect key="frame" x="0.0" y="-2" width="150" height="2"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="328" width="360" height="2"/>
+                                </variation>
+                            </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o3Y-HG-QAI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o3Y-HG-QAI" firstAttribute="leading" secondItem="svW-WM-4qZ" secondAttribute="leading" id="JNq-zS-ERy"/>
+                            <constraint firstItem="o3Y-HG-QAI" firstAttribute="trailing" secondItem="1J3-Zv-W8g" secondAttribute="trailing" id="KjH-ZH-hbv"/>
+                            <constraint firstItem="o3Y-HG-QAI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VCf-Bs-wO8"/>
+                            <constraint firstItem="1J3-Zv-W8g" firstAttribute="baseline" secondItem="svW-WM-4qZ" secondAttribute="baseline" id="dZf-ON-kNl"/>
+                            <constraint firstItem="o3Y-HG-QAI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="eQP-Lz-zCR"/>
+                            <constraint firstItem="o3Y-HG-QAI" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="g7R-UL-DrY"/>
+                            <constraint firstAttribute="trailing" secondItem="1J3-Zv-W8g" secondAttribute="trailing" id="l99-ga-jzf"/>
+                            <constraint firstItem="svW-WM-4qZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="zS2-YX-ker"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="svW-WM-4qZ"/>
+                                <exclude reference="1J3-Zv-W8g"/>
+                                <exclude reference="q4v-zT-zxj"/>
+                                <exclude reference="o3Y-HG-QAI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="zS2-YX-ker"/>
+                                <exclude reference="JNq-zS-ERy"/>
+                                <exclude reference="KjH-ZH-hbv"/>
+                                <exclude reference="VCf-Bs-wO8"/>
+                                <exclude reference="eQP-Lz-zCR"/>
+                                <exclude reference="g7R-UL-DrY"/>
+                                <exclude reference="dZf-ON-kNl"/>
+                                <exclude reference="l99-ga-jzf"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="svW-WM-4qZ"/>
+                                <include reference="1J3-Zv-W8g"/>
+                                <include reference="q4v-zT-zxj"/>
+                                <include reference="o3Y-HG-QAI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="zS2-YX-ker"/>
+                                <include reference="JNq-zS-ERy"/>
+                                <include reference="KjH-ZH-hbv"/>
+                                <include reference="VCf-Bs-wO8"/>
+                                <include reference="eQP-Lz-zCR"/>
+                                <include reference="g7R-UL-DrY"/>
+                                <include reference="dZf-ON-kNl"/>
+                                <include reference="l99-ga-jzf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="svW-WM-4qZ" id="VYI-hg-bLo"/>
+                        <outlet property="imageView" destination="o3Y-HG-QAI" id="cJ6-wM-vHG"/>
+                        <outlet property="progressView" destination="q4v-zT-zxj" id="zJR-G2-77O"/>
+                        <outlet property="resumeButton" destination="1J3-Zv-W8g" id="Huy-Q0-4FG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="364"/>
+        </scene>
+    </scenes>
+</document>
