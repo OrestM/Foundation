@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DC56B21CB7C940007C92B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC56B11CB7C940007C92B9 /* main.m */; };
+		84DC56B51CB7C940007C92B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC56B41CB7C940007C92B9 /* AppDelegate.m */; };
+		84DC56BB1CB7C940007C92B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC56B91CB7C940007C92B9 /* Main.storyboard */; };
+		84DC56BD1CB7C940007C92B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DC56BC1CB7C940007C92B9 /* Assets.xcassets */; };
+		84DC56C01CB7C940007C92B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DC56BE1CB7C940007C92B9 /* LaunchScreen.storyboard */; };
+		84DC56CC1CB7CAC1007C92B9 /* OMNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC56CB1CB7CAC1007C92B9 /* OMNoteViewController.m */; };
+		84DC56CF1CB7CAEE007C92B9 /* OMNotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC56CE1CB7CAEE007C92B9 /* OMNotesTableViewController.m */; };
+		84DC56D31CB7D1ED007C92B9 /* OMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC56D21CB7D1ED007C92B9 /* OMNote.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84DC56AD1CB7C940007C92B9 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DC56B11CB7C940007C92B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DC56B31CB7C940007C92B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DC56B41CB7C940007C92B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DC56BA1CB7C940007C92B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DC56BC1CB7C940007C92B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DC56BF1CB7C940007C92B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DC56C11CB7C940007C92B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DC56CA1CB7CAC1007C92B9 /* OMNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMNoteViewController.h; path = NoteViewController/OMNoteViewController.h; sourceTree = "<group>"; };
+		84DC56CB1CB7CAC1007C92B9 /* OMNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMNoteViewController.m; path = NoteViewController/OMNoteViewController.m; sourceTree = "<group>"; };
+		84DC56CD1CB7CAEE007C92B9 /* OMNotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMNotesTableViewController.h; path = NotesTableViewController/OMNotesTableViewController.h; sourceTree = "<group>"; };
+		84DC56CE1CB7CAEE007C92B9 /* OMNotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMNotesTableViewController.m; path = NotesTableViewController/OMNotesTableViewController.m; sourceTree = "<group>"; };
+		84DC56D11CB7D1ED007C92B9 /* OMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMNote.h; path = Model/OMNote.h; sourceTree = "<group>"; };
+		84DC56D21CB7D1ED007C92B9 /* OMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMNote.m; path = Model/OMNote.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DC56AA1CB7C940007C92B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DC56A41CB7C93E007C92B9 = {
+			isa = PBXGroup;
+			children = (
+				84DC56AF1CB7C940007C92B9 /* NotesApp */,
+				84DC56AE1CB7C940007C92B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DC56AE1CB7C940007C92B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56AD1CB7C940007C92B9 /* NotesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DC56AF1CB7C940007C92B9 /* NotesApp */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56D01CB7D1C7007C92B9 /* Model */,
+				84DC56C71CB7CA4A007C92B9 /* Controllers */,
+				84DC56B31CB7C940007C92B9 /* AppDelegate.h */,
+				84DC56B41CB7C940007C92B9 /* AppDelegate.m */,
+				84DC56B91CB7C940007C92B9 /* Main.storyboard */,
+				84DC56BC1CB7C940007C92B9 /* Assets.xcassets */,
+				84DC56BE1CB7C940007C92B9 /* LaunchScreen.storyboard */,
+				84DC56C11CB7C940007C92B9 /* Info.plist */,
+				84DC56B01CB7C940007C92B9 /* Supporting Files */,
+			);
+			path = NotesApp;
+			sourceTree = "<group>";
+		};
+		84DC56B01CB7C940007C92B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56B11CB7C940007C92B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DC56C71CB7CA4A007C92B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56C91CB7CA7C007C92B9 /* NoteViewController */,
+				84DC56C81CB7CA5E007C92B9 /* NotesTableViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84DC56C81CB7CA5E007C92B9 /* NotesTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56CD1CB7CAEE007C92B9 /* OMNotesTableViewController.h */,
+				84DC56CE1CB7CAEE007C92B9 /* OMNotesTableViewController.m */,
+			);
+			name = NotesTableViewController;
+			sourceTree = "<group>";
+		};
+		84DC56C91CB7CA7C007C92B9 /* NoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56CA1CB7CAC1007C92B9 /* OMNoteViewController.h */,
+				84DC56CB1CB7CAC1007C92B9 /* OMNoteViewController.m */,
+			);
+			name = NoteViewController;
+			sourceTree = "<group>";
+		};
+		84DC56D01CB7D1C7007C92B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84DC56D11CB7D1ED007C92B9 /* OMNote.h */,
+				84DC56D21CB7D1ED007C92B9 /* OMNote.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DC56AC1CB7C940007C92B9 /* NotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DC56C41CB7C940007C92B9 /* Build configuration list for PBXNativeTarget "NotesApp" */;
+			buildPhases = (
+				84DC56A91CB7C940007C92B9 /* Sources */,
+				84DC56AA1CB7C940007C92B9 /* Frameworks */,
+				84DC56AB1CB7C940007C92B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotesApp;
+			productName = NotesApp;
+			productReference = 84DC56AD1CB7C940007C92B9 /* NotesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DC56A51CB7C93E007C92B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84DC56AC1CB7C940007C92B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84DC56A81CB7C93E007C92B9 /* Build configuration list for PBXProject "NotesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DC56A41CB7C93E007C92B9;
+			productRefGroup = 84DC56AE1CB7C940007C92B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DC56AC1CB7C940007C92B9 /* NotesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DC56AB1CB7C940007C92B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC56C01CB7C940007C92B9 /* LaunchScreen.storyboard in Resources */,
+				84DC56BD1CB7C940007C92B9 /* Assets.xcassets in Resources */,
+				84DC56BB1CB7C940007C92B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DC56A91CB7C940007C92B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC56D31CB7D1ED007C92B9 /* OMNote.m in Sources */,
+				84DC56CC1CB7CAC1007C92B9 /* OMNoteViewController.m in Sources */,
+				84DC56B51CB7C940007C92B9 /* AppDelegate.m in Sources */,
+				84DC56B21CB7C940007C92B9 /* main.m in Sources */,
+				84DC56CF1CB7CAEE007C92B9 /* OMNotesTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DC56B91CB7C940007C92B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DC56BA1CB7C940007C92B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DC56BE1CB7C940007C92B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DC56BF1CB7C940007C92B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DC56C21CB7C940007C92B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DC56C31CB7C940007C92B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DC56C51CB7C940007C92B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.NotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DC56C61CB7C940007C92B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.NotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DC56A81CB7C93E007C92B9 /* Build configuration list for PBXProject "NotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC56C21CB7C940007C92B9 /* Debug */,
+				84DC56C31CB7C940007C92B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DC56C41CB7C940007C92B9 /* Build configuration list for PBXNativeTarget "NotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC56C51CB7C940007C92B9 /* Debug */,
+				84DC56C61CB7C940007C92B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DC56A51CB7C93E007C92B9 /* Project object */;
+}
