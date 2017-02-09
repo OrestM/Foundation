@@ -1,0 +1,82 @@
+{
+    "person1":
+    {
+		"name": "John Lennon",
+		"gender": "Male",
+		"picture": "http://fly-tel.net/tpl/images/item-1.png",
+		"birth": "1940-10- 09",
+		"place": "Liverpool, England, UK",
+		"latitude": "53.408371",
+		"longitude": "-2.991573",
+
+		"death": "1980-12- 08",
+		"placeDead": "New York City, New York, US",
+		"latitudeD": "40.7142",
+		"longitudeD": "74.0064"
+    },
+    "person2":
+    {
+		"name": "Paul McCartney",
+		"gender": "Male",
+		"picture": "http://www.dohodniydom.com/man-thumbs-up.png",
+		"birth": "1942-06- 18",
+		"place": "Liverpool, England, UK",
+        "latitude": "53.408371",
+        "longitude": "-2.991573"
+    },
+    "person3":
+    {
+		"name": "George Harrison",
+		"gender": "Male",
+		"picture": "http://savepic.su/262666.png",
+		"birth": "1943-02- 25",
+		"place": "Liverpool, England, UK",
+        "latitude": "53.408371",
+        "longitude": "-2.991573",
+
+		"death": "2001-11- 29",
+		"placeDead": "Los Angeles, California, US",
+		"latitudeD": "34.0522",
+		"longitudeD": "118.2428"
+    },
+    "person4":
+    {
+		"name": "Ringo Starr",
+		"gender": "Male",
+		"picture": "http://www.coraseton.com/images/image/newsletter-cowboy.png",
+		"birth": "1940-07- 07",
+		"place": "Liverpool, England, UK",
+        "latitude": "53.408371",
+        "longitude": "-2.991573"
+    },
+    "person5":
+    {
+		"name": "Yoko Ono",
+		"gender": "Female",
+		"picture": "http://pngimg.com/upload/girls_PNG6498.png",
+		"birth": "1933-02- 18",
+		"place": "Tokyo, Japan",
+		"latitude": "35.689487",
+		"longitude": "139.691706"
+    },
+    "person6":
+    {
+		"name": "Cynthia Powell",
+		"gender": "Female",
+		"picture": "https://jc-public-website.s3.amazonaws.com/website/img/business-woman.png",
+		"birth": "1939-09- 10",
+		"place": "Blackpool, Lancashire, England, UK",
+		"latitude": "53.817505",
+		"longitude": "-3.035675"
+    },
+    "person7":
+    {
+		"name": "Pattie Boyd",
+		"gender": "Female",
+		"picture": "http://www.cpu.si/wp-content/uploads/2015/11/businesswoman.png",
+		"birth": "1944-03- 17",
+		"place": "Taunton, Somerset, England, UK",
+		"latitude": "51.0167",
+		"longitude": "3.1000"
+	}
+}

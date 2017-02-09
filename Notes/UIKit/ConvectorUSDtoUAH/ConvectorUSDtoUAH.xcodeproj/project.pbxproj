@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844BD3FC1BFB024300CB4993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD3FB1BFB024300CB4993 /* main.m */; };
+		844BD3FF1BFB024300CB4993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD3FE1BFB024300CB4993 /* AppDelegate.m */; };
+		844BD4021BFB024300CB4993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD4011BFB024300CB4993 /* ViewController.m */; };
+		844BD4051BFB024300CB4993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844BD4031BFB024300CB4993 /* Main.storyboard */; };
+		844BD4071BFB024300CB4993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844BD4061BFB024300CB4993 /* Assets.xcassets */; };
+		844BD40A1BFB024300CB4993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844BD4081BFB024300CB4993 /* LaunchScreen.storyboard */; };
+		844BD4161BFB05D500CB4993 /* ConvectorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD4151BFB05D500CB4993 /* ConvectorModel.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844BD3F71BFB024300CB4993 /* ConvectorUSDtoUAH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvectorUSDtoUAH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844BD3FB1BFB024300CB4993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844BD3FD1BFB024300CB4993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844BD3FE1BFB024300CB4993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844BD4001BFB024300CB4993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844BD4011BFB024300CB4993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844BD4041BFB024300CB4993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844BD4061BFB024300CB4993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844BD4091BFB024300CB4993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844BD40B1BFB024300CB4993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844BD4141BFB05D500CB4993 /* ConvectorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvectorModel.h; sourceTree = "<group>"; };
+		844BD4151BFB05D500CB4993 /* ConvectorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvectorModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844BD3F41BFB024300CB4993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844BD3EE1BFB024300CB4993 = {
+			isa = PBXGroup;
+			children = (
+				844BD3F91BFB024300CB4993 /* ConvectorUSDtoUAH */,
+				844BD3F81BFB024300CB4993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844BD3F81BFB024300CB4993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844BD3F71BFB024300CB4993 /* ConvectorUSDtoUAH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844BD3F91BFB024300CB4993 /* ConvectorUSDtoUAH */ = {
+			isa = PBXGroup;
+			children = (
+				844BD4131BFB05A500CB4993 /* View */,
+				844BD4121BFB059300CB4993 /* Model */,
+				844BD4111BFB056C00CB4993 /* Controller */,
+				844BD4061BFB024300CB4993 /* Assets.xcassets */,
+				844BD4081BFB024300CB4993 /* LaunchScreen.storyboard */,
+				844BD40B1BFB024300CB4993 /* Info.plist */,
+				844BD3FA1BFB024300CB4993 /* Supporting Files */,
+			);
+			path = ConvectorUSDtoUAH;
+			sourceTree = "<group>";
+		};
+		844BD3FA1BFB024300CB4993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844BD3FD1BFB024300CB4993 /* AppDelegate.h */,
+				844BD3FE1BFB024300CB4993 /* AppDelegate.m */,
+				844BD3FB1BFB024300CB4993 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844BD4111BFB056C00CB4993 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844BD4001BFB024300CB4993 /* ViewController.h */,
+				844BD4011BFB024300CB4993 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		844BD4121BFB059300CB4993 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				844BD4141BFB05D500CB4993 /* ConvectorModel.h */,
+				844BD4151BFB05D500CB4993 /* ConvectorModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		844BD4131BFB05A500CB4993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844BD4031BFB024300CB4993 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844BD3F61BFB024300CB4993 /* ConvectorUSDtoUAH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844BD40E1BFB024300CB4993 /* Build configuration list for PBXNativeTarget "ConvectorUSDtoUAH" */;
+			buildPhases = (
+				844BD3F31BFB024300CB4993 /* Sources */,
+				844BD3F41BFB024300CB4993 /* Frameworks */,
+				844BD3F51BFB024300CB4993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvectorUSDtoUAH;
+			productName = ConvectorUSDtoUAH;
+			productReference = 844BD3F71BFB024300CB4993 /* ConvectorUSDtoUAH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844BD3EF1BFB024300CB4993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					844BD3F61BFB024300CB4993 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 844BD3F21BFB024300CB4993 /* Build configuration list for PBXProject "ConvectorUSDtoUAH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844BD3EE1BFB024300CB4993;
+			productRefGroup = 844BD3F81BFB024300CB4993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844BD3F61BFB024300CB4993 /* ConvectorUSDtoUAH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844BD3F51BFB024300CB4993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844BD40A1BFB024300CB4993 /* LaunchScreen.storyboard in Resources */,
+				844BD4071BFB024300CB4993 /* Assets.xcassets in Resources */,
+				844BD4051BFB024300CB4993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844BD3F31BFB024300CB4993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844BD4021BFB024300CB4993 /* ViewController.m in Sources */,
+				844BD3FF1BFB024300CB4993 /* AppDelegate.m in Sources */,
+				844BD3FC1BFB024300CB4993 /* main.m in Sources */,
+				844BD4161BFB05D500CB4993 /* ConvectorModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844BD4031BFB024300CB4993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844BD4041BFB024300CB4993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844BD4081BFB024300CB4993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844BD4091BFB024300CB4993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844BD40C1BFB024300CB4993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844BD40D1BFB024300CB4993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844BD40F1BFB024300CB4993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvectorUSDtoUAH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.ConvectorUSDtoUAH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844BD4101BFB024300CB4993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvectorUSDtoUAH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.ConvectorUSDtoUAH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844BD3F21BFB024300CB4993 /* Build configuration list for PBXProject "ConvectorUSDtoUAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844BD40C1BFB024300CB4993 /* Debug */,
+				844BD40D1BFB024300CB4993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844BD40E1BFB024300CB4993 /* Build configuration list for PBXNativeTarget "ConvectorUSDtoUAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844BD40F1BFB024300CB4993 /* Debug */,
+				844BD4101BFB024300CB4993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844BD3EF1BFB024300CB4993 /* Project object */;
+}

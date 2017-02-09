@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xtt-Xk-QxZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xtt-Xk-QxZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="7IK-MR-uSs">
+                                <variation key="widthClass=compact" constant="-240"/>
+                            </constraint>
+                            <constraint firstItem="xtt-Xk-QxZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TmE-vW-mCe"/>
+                            <constraint firstItem="xtt-Xk-QxZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="auJ-a7-CVB">
+                                <variation key="widthClass=compact" constant="-220"/>
+                            </constraint>
+                            <constraint firstItem="xtt-Xk-QxZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="duo-wQ-JgV">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xtt-Xk-QxZ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="7IK-MR-uSs"/>
+                                <exclude reference="TmE-vW-mCe"/>
+                                <exclude reference="auJ-a7-CVB"/>
+                                <exclude reference="duo-wQ-JgV"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="xtt-Xk-QxZ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="7IK-MR-uSs"/>
+                                <include reference="TmE-vW-mCe"/>
+                                <include reference="auJ-a7-CVB"/>
+                                <include reference="duo-wQ-JgV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="animationImageView" destination="xtt-Xk-QxZ" id="MpQ-3U-QdK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="364"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D265DBC1E4631880026144E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D265DBB1E4631880026144E /* main.m */; };
+		4D265DBF1E4631880026144E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D265DBE1E4631880026144E /* AppDelegate.m */; };
+		4D265DC51E4631880026144E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D265DC31E4631880026144E /* Main.storyboard */; };
+		4D265DC71E4631880026144E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D265DC61E4631880026144E /* Assets.xcassets */; };
+		4D265DCA1E4631880026144E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D265DC81E4631880026144E /* LaunchScreen.storyboard */; };
+		4D265DD81E4632560026144E /* OMListPeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D265DD71E4632560026144E /* OMListPeopleTableViewController.m */; };
+		4D265DDC1E463A8E0026144E /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D265DDB1E463A8E0026144E /* PersonModel.m */; };
+		4D265DE01E463AE60026144E /* JsonListPeople.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D265DDF1E463AE60026144E /* JsonListPeople.json */; };
+		4D265DE41E464AA20026144E /* OMListPeopleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D265DE31E464AA20026144E /* OMListPeopleTableViewCell.m */; };
+		4DA58A841E466FED00B0621C /* OMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA58A831E466FED00B0621C /* OMMapViewController.m */; };
+		4DA58A871E46782D00B0621C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA58A861E46782D00B0621C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D265DB71E4631880026144E /* OMListOfPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMListOfPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D265DBB1E4631880026144E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D265DBD1E4631880026144E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D265DBE1E4631880026144E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D265DC41E4631880026144E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D265DC61E4631880026144E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D265DC91E4631880026144E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D265DCB1E4631880026144E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D265DD61E4632560026144E /* OMListPeopleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMListPeopleTableViewController.h; path = Controller/OMListPeopleTableViewController.h; sourceTree = "<group>"; };
+		4D265DD71E4632560026144E /* OMListPeopleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMListPeopleTableViewController.m; path = Controller/OMListPeopleTableViewController.m; sourceTree = "<group>"; };
+		4D265DDA1E463A8E0026144E /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonModel.h; path = Model/PersonModel.h; sourceTree = "<group>"; };
+		4D265DDB1E463A8E0026144E /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModel.m; path = Model/PersonModel.m; sourceTree = "<group>"; };
+		4D265DDF1E463AE60026144E /* JsonListPeople.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonListPeople.json; sourceTree = "<group>"; };
+		4D265DE21E464AA20026144E /* OMListPeopleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMListPeopleTableViewCell.h; path = View/OMListPeopleTableViewCell.h; sourceTree = "<group>"; };
+		4D265DE31E464AA20026144E /* OMListPeopleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMListPeopleTableViewCell.m; path = View/OMListPeopleTableViewCell.m; sourceTree = "<group>"; };
+		4DA58A821E466FED00B0621C /* OMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMMapViewController.h; path = View/OMMapViewController.h; sourceTree = "<group>"; };
+		4DA58A831E466FED00B0621C /* OMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMMapViewController.m; path = View/OMMapViewController.m; sourceTree = "<group>"; };
+		4DA58A861E46782D00B0621C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D265DB41E4631880026144E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA58A871E46782D00B0621C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D265DAE1E4631880026144E = {
+			isa = PBXGroup;
+			children = (
+				4D265DB91E4631880026144E /* OMListOfPeople */,
+				4D265DB81E4631880026144E /* Products */,
+				4DA58A851E46782C00B0621C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D265DB81E4631880026144E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DB71E4631880026144E /* OMListOfPeople.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D265DB91E4631880026144E /* OMListOfPeople */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DE11E464A8C0026144E /* View */,
+				4D265DD91E463A3A0026144E /* Model */,
+				4D265DD51E4632300026144E /* Controller */,
+				4D265DBD1E4631880026144E /* AppDelegate.h */,
+				4D265DBE1E4631880026144E /* AppDelegate.m */,
+				4D265DC31E4631880026144E /* Main.storyboard */,
+				4D265DDF1E463AE60026144E /* JsonListPeople.json */,
+				4D265DC61E4631880026144E /* Assets.xcassets */,
+				4D265DC81E4631880026144E /* LaunchScreen.storyboard */,
+				4D265DCB1E4631880026144E /* Info.plist */,
+				4D265DBA1E4631880026144E /* Supporting Files */,
+			);
+			path = OMListOfPeople;
+			sourceTree = "<group>";
+		};
+		4D265DBA1E4631880026144E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DBB1E4631880026144E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D265DD51E4632300026144E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DD61E4632560026144E /* OMListPeopleTableViewController.h */,
+				4D265DD71E4632560026144E /* OMListPeopleTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4D265DD91E463A3A0026144E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DDA1E463A8E0026144E /* PersonModel.h */,
+				4D265DDB1E463A8E0026144E /* PersonModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4D265DE11E464A8C0026144E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D265DE21E464AA20026144E /* OMListPeopleTableViewCell.h */,
+				4D265DE31E464AA20026144E /* OMListPeopleTableViewCell.m */,
+				4DA58A821E466FED00B0621C /* OMMapViewController.h */,
+				4DA58A831E466FED00B0621C /* OMMapViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4DA58A851E46782C00B0621C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DA58A861E46782D00B0621C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D265DB61E4631880026144E /* OMListOfPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D265DCE1E4631880026144E /* Build configuration list for PBXNativeTarget "OMListOfPeople" */;
+			buildPhases = (
+				4D265DB31E4631880026144E /* Sources */,
+				4D265DB41E4631880026144E /* Frameworks */,
+				4D265DB51E4631880026144E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMListOfPeople;
+			productName = OMListOfPeople;
+			productReference = 4D265DB71E4631880026144E /* OMListOfPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D265DAF1E4631880026144E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Orest Mykha";
+				TargetAttributes = {
+					4D265DB61E4631880026144E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D265DB21E4631880026144E /* Build configuration list for PBXProject "OMListOfPeople" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D265DAE1E4631880026144E;
+			productRefGroup = 4D265DB81E4631880026144E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D265DB61E4631880026144E /* OMListOfPeople */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D265DB51E4631880026144E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D265DCA1E4631880026144E /* LaunchScreen.storyboard in Resources */,
+				4D265DC71E4631880026144E /* Assets.xcassets in Resources */,
+				4D265DE01E463AE60026144E /* JsonListPeople.json in Resources */,
+				4D265DC51E4631880026144E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D265DB31E4631880026144E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D265DDC1E463A8E0026144E /* PersonModel.m in Sources */,
+				4DA58A841E466FED00B0621C /* OMMapViewController.m in Sources */,
+				4D265DBF1E4631880026144E /* AppDelegate.m in Sources */,
+				4D265DBC1E4631880026144E /* main.m in Sources */,
+				4D265DD81E4632560026144E /* OMListPeopleTableViewController.m in Sources */,
+				4D265DE41E464AA20026144E /* OMListPeopleTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D265DC31E4631880026144E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D265DC41E4631880026144E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D265DC81E4631880026144E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D265DC91E4631880026144E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D265DCC1E4631880026144E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D265DCD1E4631880026144E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D265DCF1E4631880026144E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMListOfPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A-O.OMListOfPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D265DD01E4631880026144E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMListOfPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A-O.OMListOfPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D265DB21E4631880026144E /* Build configuration list for PBXProject "OMListOfPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D265DCC1E4631880026144E /* Debug */,
+				4D265DCD1E4631880026144E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D265DCE1E4631880026144E /* Build configuration list for PBXNativeTarget "OMListOfPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D265DCF1E4631880026144E /* Debug */,
+				4D265DD01E4631880026144E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D265DAF1E4631880026144E /* Project object */;
+}

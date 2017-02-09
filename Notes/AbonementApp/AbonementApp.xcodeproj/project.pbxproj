@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8448F3AD1CCF3A430069D73A /* OMAllAbonementTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448F3AC1CCF3A430069D73A /* OMAllAbonementTableViewCell.m */; };
+		8448F3B11CCF3A530069D73A /* OMVIPAbonementTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448F3B01CCF3A530069D73A /* OMVIPAbonementTableViewCell.m */; };
+		845537C21CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845537C11CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.m */; };
+		845617991CCC015D00E94D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617981CCC015D00E94D81 /* main.m */; };
+		8456179C1CCC015D00E94D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456179B1CCC015D00E94D81 /* AppDelegate.m */; };
+		845617A21CCC015D00E94D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845617A01CCC015D00E94D81 /* Main.storyboard */; };
+		845617A41CCC015D00E94D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845617A31CCC015D00E94D81 /* Assets.xcassets */; };
+		845617A71CCC015D00E94D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845617A51CCC015D00E94D81 /* LaunchScreen.storyboard */; };
+		845617B21CCC031A00E94D81 /* OMAllAbonementTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617B11CCC031A00E94D81 /* OMAllAbonementTableViewController.m */; };
+		845617B71CCC03AD00E94D81 /* OMAbonement.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617B61CCC03AD00E94D81 /* OMAbonement.m */; };
+		845617C01CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617BF1CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.m */; };
+		845617C31CCC07E200E94D81 /* OMAbonementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617C21CCC07E200E94D81 /* OMAbonementViewController.m */; };
+		845617C61CCC086600E94D81 /* OMVIPAbonement.m in Sources */ = {isa = PBXBuildFile; fileRef = 845617C51CCC086600E94D81 /* OMVIPAbonement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8448F3AB1CCF3A430069D73A /* OMAllAbonementTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAllAbonementTableViewCell.h; sourceTree = "<group>"; };
+		8448F3AC1CCF3A430069D73A /* OMAllAbonementTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAllAbonementTableViewCell.m; sourceTree = "<group>"; };
+		8448F3AF1CCF3A530069D73A /* OMVIPAbonementTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMVIPAbonementTableViewCell.h; sourceTree = "<group>"; };
+		8448F3B01CCF3A530069D73A /* OMVIPAbonementTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMVIPAbonementTableViewCell.m; sourceTree = "<group>"; };
+		845537C01CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMVIPAbonementCollectionViewCell.h; path = Controllers/VIPAbonementCollectionViewController/VIPAbonementCollectionViewCell/OMVIPAbonementCollectionViewCell.h; sourceTree = "<group>"; };
+		845537C11CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMVIPAbonementCollectionViewCell.m; path = Controllers/VIPAbonementCollectionViewController/VIPAbonementCollectionViewCell/OMVIPAbonementCollectionViewCell.m; sourceTree = "<group>"; };
+		845617941CCC015D00E94D81 /* AbonementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbonementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845617981CCC015D00E94D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8456179A1CCC015D00E94D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8456179B1CCC015D00E94D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845617A11CCC015D00E94D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845617A31CCC015D00E94D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845617A61CCC015D00E94D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845617A81CCC015D00E94D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845617B01CCC031A00E94D81 /* OMAllAbonementTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAllAbonementTableViewController.h; path = Controllers/AllAbonementTableViewController/OMAllAbonementTableViewController.h; sourceTree = "<group>"; };
+		845617B11CCC031A00E94D81 /* OMAllAbonementTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMAllAbonementTableViewController.m; path = Controllers/AllAbonementTableViewController/OMAllAbonementTableViewController.m; sourceTree = "<group>"; };
+		845617B51CCC03AD00E94D81 /* OMAbonement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAbonement.h; path = Model/OMAbonement/OMAbonement.h; sourceTree = "<group>"; };
+		845617B61CCC03AD00E94D81 /* OMAbonement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMAbonement.m; path = Model/OMAbonement/OMAbonement.m; sourceTree = "<group>"; };
+		845617BE1CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMVIPAbonementCollectionViewController.h; path = Controllers/VIPAbonementCollectionViewController/OMVIPAbonementCollectionViewController.h; sourceTree = "<group>"; };
+		845617BF1CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMVIPAbonementCollectionViewController.m; path = Controllers/VIPAbonementCollectionViewController/OMVIPAbonementCollectionViewController.m; sourceTree = "<group>"; };
+		845617C11CCC07E200E94D81 /* OMAbonementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAbonementViewController.h; path = Controllers/AbonementViewController/OMAbonementViewController.h; sourceTree = "<group>"; };
+		845617C21CCC07E200E94D81 /* OMAbonementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMAbonementViewController.m; path = Controllers/AbonementViewController/OMAbonementViewController.m; sourceTree = "<group>"; };
+		845617C41CCC086600E94D81 /* OMVIPAbonement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMVIPAbonement.h; path = Model/OMAbonement/OMVIPAbonement.h; sourceTree = "<group>"; };
+		845617C51CCC086600E94D81 /* OMVIPAbonement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMVIPAbonement.m; path = Model/OMAbonement/OMVIPAbonement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845617911CCC015D00E94D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8448F3AA1CCF3A430069D73A /* AllAbonementCell */ = {
+			isa = PBXGroup;
+			children = (
+				8448F3AB1CCF3A430069D73A /* OMAllAbonementTableViewCell.h */,
+				8448F3AC1CCF3A430069D73A /* OMAllAbonementTableViewCell.m */,
+			);
+			name = AllAbonementCell;
+			path = Controllers/AllAbonementTableViewController/AllAbonementCell;
+			sourceTree = "<group>";
+		};
+		8448F3AE1CCF3A530069D73A /* VIPAbonementCell */ = {
+			isa = PBXGroup;
+			children = (
+				8448F3AF1CCF3A530069D73A /* OMVIPAbonementTableViewCell.h */,
+				8448F3B01CCF3A530069D73A /* OMVIPAbonementTableViewCell.m */,
+			);
+			name = VIPAbonementCell;
+			path = Controllers/AllAbonementTableViewController/VIPAbonementCell;
+			sourceTree = "<group>";
+		};
+		845537BF1CCF8C8D003F8732 /* VIPAbonementCell */ = {
+			isa = PBXGroup;
+			children = (
+				845537C01CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.h */,
+				845537C11CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.m */,
+			);
+			name = VIPAbonementCell;
+			sourceTree = "<group>";
+		};
+		8456178B1CCC015D00E94D81 = {
+			isa = PBXGroup;
+			children = (
+				845617961CCC015D00E94D81 /* AbonementApp */,
+				845617951CCC015D00E94D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845617951CCC015D00E94D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845617941CCC015D00E94D81 /* AbonementApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845617961CCC015D00E94D81 /* AbonementApp */ = {
+			isa = PBXGroup;
+			children = (
+				845617B31CCC035400E94D81 /* Model */,
+				845617AE1CCC026E00E94D81 /* Controllers */,
+				8456179A1CCC015D00E94D81 /* AppDelegate.h */,
+				8456179B1CCC015D00E94D81 /* AppDelegate.m */,
+				845617A01CCC015D00E94D81 /* Main.storyboard */,
+				845617A31CCC015D00E94D81 /* Assets.xcassets */,
+				845617A51CCC015D00E94D81 /* LaunchScreen.storyboard */,
+				845617A81CCC015D00E94D81 /* Info.plist */,
+				845617971CCC015D00E94D81 /* Supporting Files */,
+			);
+			path = AbonementApp;
+			sourceTree = "<group>";
+		};
+		845617971CCC015D00E94D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845617981CCC015D00E94D81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845617AE1CCC026E00E94D81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				845617BC1CCC071400E94D81 /* AbonementViewController */,
+				845617BD1CCC073200E94D81 /* VIPAbonementCollectionViewController */,
+				845617AF1CCC028200E94D81 /* AllAbonementTableViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		845617AF1CCC028200E94D81 /* AllAbonementTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845617B01CCC031A00E94D81 /* OMAllAbonementTableViewController.h */,
+				845617B11CCC031A00E94D81 /* OMAllAbonementTableViewController.m */,
+				8448F3AE1CCF3A530069D73A /* VIPAbonementCell */,
+				8448F3AA1CCF3A430069D73A /* AllAbonementCell */,
+			);
+			name = AllAbonementTableViewController;
+			sourceTree = "<group>";
+		};
+		845617B31CCC035400E94D81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845617B41CCC036400E94D81 /* OMAbonement */,
+				845617B81CCC03FD00E94D81 /* OMVIPAbonement */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		845617B41CCC036400E94D81 /* OMAbonement */ = {
+			isa = PBXGroup;
+			children = (
+				845617B51CCC03AD00E94D81 /* OMAbonement.h */,
+				845617B61CCC03AD00E94D81 /* OMAbonement.m */,
+			);
+			name = OMAbonement;
+			sourceTree = "<group>";
+		};
+		845617B81CCC03FD00E94D81 /* OMVIPAbonement */ = {
+			isa = PBXGroup;
+			children = (
+				845617C41CCC086600E94D81 /* OMVIPAbonement.h */,
+				845617C51CCC086600E94D81 /* OMVIPAbonement.m */,
+			);
+			name = OMVIPAbonement;
+			sourceTree = "<group>";
+		};
+		845617BC1CCC071400E94D81 /* AbonementViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845617C11CCC07E200E94D81 /* OMAbonementViewController.h */,
+				845617C21CCC07E200E94D81 /* OMAbonementViewController.m */,
+			);
+			name = AbonementViewController;
+			sourceTree = "<group>";
+		};
+		845617BD1CCC073200E94D81 /* VIPAbonementCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845617BE1CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.h */,
+				845617BF1CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.m */,
+				845537BF1CCF8C8D003F8732 /* VIPAbonementCell */,
+			);
+			name = VIPAbonementCollectionViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845617931CCC015D00E94D81 /* AbonementApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845617AB1CCC015D00E94D81 /* Build configuration list for PBXNativeTarget "AbonementApp" */;
+			buildPhases = (
+				845617901CCC015D00E94D81 /* Sources */,
+				845617911CCC015D00E94D81 /* Frameworks */,
+				845617921CCC015D00E94D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbonementApp;
+			productName = AbonementApp;
+			productReference = 845617941CCC015D00E94D81 /* AbonementApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8456178C1CCC015D00E94D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					845617931CCC015D00E94D81 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8456178F1CCC015D00E94D81 /* Build configuration list for PBXProject "AbonementApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8456178B1CCC015D00E94D81;
+			productRefGroup = 845617951CCC015D00E94D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845617931CCC015D00E94D81 /* AbonementApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845617921CCC015D00E94D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845617A71CCC015D00E94D81 /* LaunchScreen.storyboard in Resources */,
+				845617A41CCC015D00E94D81 /* Assets.xcassets in Resources */,
+				845617A21CCC015D00E94D81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845617901CCC015D00E94D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845617C61CCC086600E94D81 /* OMVIPAbonement.m in Sources */,
+				8448F3AD1CCF3A430069D73A /* OMAllAbonementTableViewCell.m in Sources */,
+				845617C31CCC07E200E94D81 /* OMAbonementViewController.m in Sources */,
+				8456179C1CCC015D00E94D81 /* AppDelegate.m in Sources */,
+				845617B71CCC03AD00E94D81 /* OMAbonement.m in Sources */,
+				845617C01CCC077E00E94D81 /* OMVIPAbonementCollectionViewController.m in Sources */,
+				845537C21CCF8CD0003F8732 /* OMVIPAbonementCollectionViewCell.m in Sources */,
+				845617991CCC015D00E94D81 /* main.m in Sources */,
+				845617B21CCC031A00E94D81 /* OMAllAbonementTableViewController.m in Sources */,
+				8448F3B11CCF3A530069D73A /* OMVIPAbonementTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845617A01CCC015D00E94D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845617A11CCC015D00E94D81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845617A51CCC015D00E94D81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845617A61CCC015D00E94D81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845617A91CCC015D00E94D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845617AA1CCC015D00E94D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845617AC1CCC015D00E94D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbonementApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.AbonementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845617AD1CCC015D00E94D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbonementApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.AbonementApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8456178F1CCC015D00E94D81 /* Build configuration list for PBXProject "AbonementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845617A91CCC015D00E94D81 /* Debug */,
+				845617AA1CCC015D00E94D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845617AB1CCC015D00E94D81 /* Build configuration list for PBXNativeTarget "AbonementApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845617AC1CCC015D00E94D81 /* Debug */,
+				845617AD1CCC015D00E94D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8456178C1CCC015D00E94D81 /* Project object */;
+}

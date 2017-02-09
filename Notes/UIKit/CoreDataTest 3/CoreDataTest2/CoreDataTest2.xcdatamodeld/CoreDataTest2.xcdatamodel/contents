@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1605" minimumToolsVersion="Automatic">
+    <entity name="OMCar" representedClassName="OMCar" parentEntity="OMObject" syncable="YES">
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OMStudent" inverseName="car" inverseEntity="OMStudent" syncable="YES"/>
+    </entity>
+    <entity name="OMCourse" representedClassName="OMCourse" parentEntity="OMObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OMStudent" inverseName="courses" inverseEntity="OMStudent" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OMUniversity" inverseName="courses" inverseEntity="OMUniversity" syncable="YES"/>
+        <fetchedProperty name="bestStudents" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="OMStudent" predicateString="score &gt; 3.75"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="OMObject" representedClassName="OMObject" syncable="YES"/>
+    <entity name="OMStudent" representedClassName="OMStudent" parentEntity="OMObject" syncable="YES">
+        <attribute name="dateBirthd" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="car" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="OMCar" inverseName="owner" inverseEntity="OMCar" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OMCourse" inverseName="students" inverseEntity="OMCourse" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OMUniversity" inverseName="students" inverseEntity="OMUniversity" syncable="YES"/>
+    </entity>
+    <entity name="OMUniversity" representedClassName="OMUniversity" parentEntity="OMObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="OMCourse" inverseName="university" inverseEntity="OMCourse" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="OMStudent" inverseName="university" inverseEntity="OMStudent" syncable="YES"/>
+    </entity>
+    <fetchRequest name="FetchStudents" entity="OMStudent" predicateString="score &gt; 3 AND score &lt;= 3.5 AND firstName CONTAINS &quot;er&quot;"/>
+    <elements>
+        <element name="OMCar" positionX="304" positionY="-1980" width="128" height="73"/>
+        <element name="OMCourse" positionX="-45" positionY="-2061" width="128" height="116"/>
+        <element name="OMObject" positionX="-20" positionY="-2250" width="128" height="43"/>
+        <element name="OMStudent" positionX="124" positionY="-1980" width="128" height="148"/>
+        <element name="OMUniversity" positionX="-234" positionY="-1978" width="128" height="88"/>
+    </elements>
+</model>

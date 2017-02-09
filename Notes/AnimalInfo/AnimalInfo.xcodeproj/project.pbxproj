@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844FD39E1CAD122E00789785 /* OMDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FD39D1CAD122E00789785 /* OMDog.m */; };
+		844FD3A21CAD13CD00789785 /* OMMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FD3A11CAD13CD00789785 /* OMMonkey.m */; };
+		84502B131CAC2D8300A87B7B /* OMAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84502B121CAC2D8300A87B7B /* OMAnimalViewController.m */; };
+		84502B161CAC313D00A87B7B /* OMAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84502B151CAC313D00A87B7B /* OMAnimal.m */; };
+		84502B191CAC341C00A87B7B /* OMCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84502B181CAC341C00A87B7B /* OMCat.m */; };
+		84D33AD91CA911E5003BC7BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D33AD81CA911E5003BC7BB /* main.m */; };
+		84D33ADC1CA911E5003BC7BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D33ADB1CA911E5003BC7BB /* AppDelegate.m */; };
+		84D33AE21CA911E5003BC7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D33AE01CA911E5003BC7BB /* Main.storyboard */; };
+		84D33AE41CA911E5003BC7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D33AE31CA911E5003BC7BB /* Assets.xcassets */; };
+		84D33AE71CA911E5003BC7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D33AE51CA911E5003BC7BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844FD39C1CAD122E00789785 /* OMDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMDog.h; path = Dog/OMDog.h; sourceTree = "<group>"; };
+		844FD39D1CAD122E00789785 /* OMDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMDog.m; path = Dog/OMDog.m; sourceTree = "<group>"; };
+		844FD3A01CAD13CD00789785 /* OMMonkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMMonkey.h; sourceTree = "<group>"; };
+		844FD3A11CAD13CD00789785 /* OMMonkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMMonkey.m; sourceTree = "<group>"; };
+		84502B111CAC2D8300A87B7B /* OMAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAnimalViewController.h; sourceTree = "<group>"; };
+		84502B121CAC2D8300A87B7B /* OMAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAnimalViewController.m; sourceTree = "<group>"; };
+		84502B141CAC313D00A87B7B /* OMAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAnimal.h; sourceTree = "<group>"; };
+		84502B151CAC313D00A87B7B /* OMAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAnimal.m; sourceTree = "<group>"; };
+		84502B171CAC341C00A87B7B /* OMCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCat.h; sourceTree = "<group>"; };
+		84502B181CAC341C00A87B7B /* OMCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCat.m; sourceTree = "<group>"; };
+		84D33AD41CA911E5003BC7BB /* AnimalInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D33AD81CA911E5003BC7BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D33ADA1CA911E5003BC7BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D33ADB1CA911E5003BC7BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D33AE11CA911E5003BC7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D33AE31CA911E5003BC7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D33AE61CA911E5003BC7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D33AE81CA911E5003BC7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D33AD11CA911E5003BC7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844FD39B1CAD120500789785 /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				844FD39C1CAD122E00789785 /* OMDog.h */,
+				844FD39D1CAD122E00789785 /* OMDog.m */,
+			);
+			name = Dog;
+			sourceTree = "<group>";
+		};
+		844FD39F1CAD13B800789785 /* Monkey */ = {
+			isa = PBXGroup;
+			children = (
+				844FD3A01CAD13CD00789785 /* OMMonkey.h */,
+				844FD3A11CAD13CD00789785 /* OMMonkey.m */,
+			);
+			name = Monkey;
+			sourceTree = "<group>";
+		};
+		84502B0F1CAC2CB200A87B7B /* Animal Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84502B111CAC2D8300A87B7B /* OMAnimalViewController.h */,
+				84502B121CAC2D8300A87B7B /* OMAnimalViewController.m */,
+			);
+			name = "Animal Controller";
+			sourceTree = "<group>";
+		};
+		84502B101CAC2CFF00A87B7B /* Animals Class */ = {
+			isa = PBXGroup;
+			children = (
+				84502B141CAC313D00A87B7B /* OMAnimal.h */,
+				84502B151CAC313D00A87B7B /* OMAnimal.m */,
+				844FD39F1CAD13B800789785 /* Monkey */,
+				844FD39B1CAD120500789785 /* Dog */,
+				84502B1A1CAC342100A87B7B /* Cat */,
+			);
+			name = "Animals Class";
+			sourceTree = "<group>";
+		};
+		84502B1A1CAC342100A87B7B /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				84502B171CAC341C00A87B7B /* OMCat.h */,
+				84502B181CAC341C00A87B7B /* OMCat.m */,
+			);
+			name = Cat;
+			sourceTree = "<group>";
+		};
+		84D33ACB1CA911E5003BC7BB = {
+			isa = PBXGroup;
+			children = (
+				84D33AD61CA911E5003BC7BB /* AnimalInfo */,
+				84D33AD51CA911E5003BC7BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D33AD51CA911E5003BC7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D33AD41CA911E5003BC7BB /* AnimalInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D33AD61CA911E5003BC7BB /* AnimalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84502B101CAC2CFF00A87B7B /* Animals Class */,
+				84502B0F1CAC2CB200A87B7B /* Animal Controller */,
+				84D33ADA1CA911E5003BC7BB /* AppDelegate.h */,
+				84D33ADB1CA911E5003BC7BB /* AppDelegate.m */,
+				84D33AE01CA911E5003BC7BB /* Main.storyboard */,
+				84D33AE31CA911E5003BC7BB /* Assets.xcassets */,
+				84D33AE51CA911E5003BC7BB /* LaunchScreen.storyboard */,
+				84D33AE81CA911E5003BC7BB /* Info.plist */,
+				84D33AD71CA911E5003BC7BB /* Supporting Files */,
+			);
+			path = AnimalInfo;
+			sourceTree = "<group>";
+		};
+		84D33AD71CA911E5003BC7BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D33AD81CA911E5003BC7BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D33AD31CA911E5003BC7BB /* AnimalInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D33AEB1CA911E5003BC7BB /* Build configuration list for PBXNativeTarget "AnimalInfo" */;
+			buildPhases = (
+				84D33AD01CA911E5003BC7BB /* Sources */,
+				84D33AD11CA911E5003BC7BB /* Frameworks */,
+				84D33AD21CA911E5003BC7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalInfo;
+			productName = AnimalInfo;
+			productReference = 84D33AD41CA911E5003BC7BB /* AnimalInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D33ACC1CA911E5003BC7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84D33AD31CA911E5003BC7BB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84D33ACF1CA911E5003BC7BB /* Build configuration list for PBXProject "AnimalInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D33ACB1CA911E5003BC7BB;
+			productRefGroup = 84D33AD51CA911E5003BC7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D33AD31CA911E5003BC7BB /* AnimalInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D33AD21CA911E5003BC7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D33AE71CA911E5003BC7BB /* LaunchScreen.storyboard in Resources */,
+				84D33AE41CA911E5003BC7BB /* Assets.xcassets in Resources */,
+				84D33AE21CA911E5003BC7BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D33AD01CA911E5003BC7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844FD39E1CAD122E00789785 /* OMDog.m in Sources */,
+				84502B131CAC2D8300A87B7B /* OMAnimalViewController.m in Sources */,
+				84D33ADC1CA911E5003BC7BB /* AppDelegate.m in Sources */,
+				84502B191CAC341C00A87B7B /* OMCat.m in Sources */,
+				84D33AD91CA911E5003BC7BB /* main.m in Sources */,
+				84502B161CAC313D00A87B7B /* OMAnimal.m in Sources */,
+				844FD3A21CAD13CD00789785 /* OMMonkey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D33AE01CA911E5003BC7BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D33AE11CA911E5003BC7BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D33AE51CA911E5003BC7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D33AE61CA911E5003BC7BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D33AE91CA911E5003BC7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D33AEA1CA911E5003BC7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D33AEC1CA911E5003BC7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.AnimalInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D33AED1CA911E5003BC7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.AnimalInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D33ACF1CA911E5003BC7BB /* Build configuration list for PBXProject "AnimalInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D33AE91CA911E5003BC7BB /* Debug */,
+				84D33AEA1CA911E5003BC7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D33AEB1CA911E5003BC7BB /* Build configuration list for PBXNativeTarget "AnimalInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D33AEC1CA911E5003BC7BB /* Debug */,
+				84D33AED1CA911E5003BC7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D33ACC1CA911E5003BC7BB /* Project object */;
+}

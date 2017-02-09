@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840D22CA1CA01EB1008FB3FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D22C91CA01EB1008FB3FD /* main.m */; };
+		840D22CD1CA01EB1008FB3FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D22CC1CA01EB1008FB3FD /* AppDelegate.m */; };
+		840D22D01CA01EB1008FB3FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D22CF1CA01EB1008FB3FD /* ViewController.m */; };
+		840D22D31CA01EB1008FB3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D22D11CA01EB1008FB3FD /* Main.storyboard */; };
+		840D22D61CA01EB1008FB3FD /* CoreDataTest2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840D22D41CA01EB1008FB3FD /* CoreDataTest2.xcdatamodeld */; };
+		840D22D81CA01EB1008FB3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D22D71CA01EB1008FB3FD /* Assets.xcassets */; };
+		840D22DB1CA01EB1008FB3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D22D91CA01EB1008FB3FD /* LaunchScreen.storyboard */; };
+		840D22F91CA023EA008FB3FD /* OMStudent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D22F61CA023EA008FB3FD /* OMStudent+CoreDataProperties.m */; };
+		840D22FA1CA023EA008FB3FD /* OMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D22F81CA023EA008FB3FD /* OMStudent.m */; };
+		8448EE431CA135B40086E711 /* OMUniversity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448EE401CA135B40086E711 /* OMUniversity+CoreDataProperties.m */; };
+		8448EE441CA135B40086E711 /* OMUniversity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448EE421CA135B40086E711 /* OMUniversity.m */; };
+		8448EE491CA142E20086E711 /* OMCourse+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448EE461CA142E20086E711 /* OMCourse+CoreDataProperties.m */; };
+		8448EE4A1CA142E20086E711 /* OMCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448EE481CA142E20086E711 /* OMCourse.m */; };
+		844D4A2C1CA0A2CF00622C5A /* OMObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A291CA0A2CF00622C5A /* OMObject+CoreDataProperties.m */; };
+		844D4A2D1CA0A2CF00622C5A /* OMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A2B1CA0A2CF00622C5A /* OMObject.m */; };
+		844FACCE1CA498400039E8CC /* OMUniversitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FACCD1CA498400039E8CC /* OMUniversitiesViewController.m */; };
+		844FACD11CA499E30039E8CC /* OMCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FACD01CA499E30039E8CC /* OMCoreDataViewController.m */; };
+		844FACD41CA4A6230039E8CC /* OMCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FACD31CA4A6230039E8CC /* OMCoursesViewController.m */; };
+		844FACD71CA4AC750039E8CC /* OMStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FACD61CA4AC750039E8CC /* OMStudentsViewController.m */; };
+		84569D3F1CA04C6D003528BD /* OMCar+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84569D3C1CA04C6D003528BD /* OMCar+CoreDataProperties.m */; };
+		84569D401CA04C6D003528BD /* OMCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84569D3E1CA04C6D003528BD /* OMCar.m */; };
+		8495C5921CA2F44D00300957 /* OMCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495C5911CA2F44D00300957 /* OMCoreDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840D22C51CA01EB1008FB3FD /* CoreDataTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840D22C91CA01EB1008FB3FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840D22CB1CA01EB1008FB3FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840D22CC1CA01EB1008FB3FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840D22CE1CA01EB1008FB3FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840D22CF1CA01EB1008FB3FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840D22D21CA01EB1008FB3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840D22D51CA01EB1008FB3FD /* CoreDataTest2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest2.xcdatamodel; sourceTree = "<group>"; };
+		840D22D71CA01EB1008FB3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840D22DA1CA01EB1008FB3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840D22DC1CA01EB1008FB3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D22F51CA023EA008FB3FD /* OMStudent+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMStudent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		840D22F61CA023EA008FB3FD /* OMStudent+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OMStudent+CoreDataProperties.m"; sourceTree = "<group>"; };
+		840D22F71CA023EA008FB3FD /* OMStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMStudent.h; sourceTree = "<group>"; };
+		840D22F81CA023EA008FB3FD /* OMStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMStudent.m; sourceTree = "<group>"; };
+		8448EE3F1CA135B40086E711 /* OMUniversity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMUniversity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8448EE401CA135B40086E711 /* OMUniversity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OMUniversity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8448EE411CA135B40086E711 /* OMUniversity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMUniversity.h; sourceTree = "<group>"; };
+		8448EE421CA135B40086E711 /* OMUniversity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMUniversity.m; sourceTree = "<group>"; };
+		8448EE451CA142E20086E711 /* OMCourse+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMCourse+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8448EE461CA142E20086E711 /* OMCourse+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OMCourse+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8448EE471CA142E20086E711 /* OMCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCourse.h; sourceTree = "<group>"; };
+		8448EE481CA142E20086E711 /* OMCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCourse.m; sourceTree = "<group>"; };
+		844D4A281CA0A2CF00622C5A /* OMObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		844D4A291CA0A2CF00622C5A /* OMObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OMObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		844D4A2A1CA0A2CF00622C5A /* OMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMObject.h; sourceTree = "<group>"; };
+		844D4A2B1CA0A2CF00622C5A /* OMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMObject.m; sourceTree = "<group>"; };
+		844FACCC1CA498400039E8CC /* OMUniversitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMUniversitiesViewController.h; sourceTree = "<group>"; };
+		844FACCD1CA498400039E8CC /* OMUniversitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMUniversitiesViewController.m; sourceTree = "<group>"; };
+		844FACCF1CA499E30039E8CC /* OMCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCoreDataViewController.h; sourceTree = "<group>"; };
+		844FACD01CA499E30039E8CC /* OMCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCoreDataViewController.m; sourceTree = "<group>"; };
+		844FACD21CA4A6230039E8CC /* OMCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCoursesViewController.h; sourceTree = "<group>"; };
+		844FACD31CA4A6230039E8CC /* OMCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCoursesViewController.m; sourceTree = "<group>"; };
+		844FACD51CA4AC750039E8CC /* OMStudentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMStudentsViewController.h; sourceTree = "<group>"; };
+		844FACD61CA4AC750039E8CC /* OMStudentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMStudentsViewController.m; sourceTree = "<group>"; };
+		84569D3B1CA04C6D003528BD /* OMCar+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMCar+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84569D3C1CA04C6D003528BD /* OMCar+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OMCar+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84569D3D1CA04C6D003528BD /* OMCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCar.h; sourceTree = "<group>"; };
+		84569D3E1CA04C6D003528BD /* OMCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCar.m; sourceTree = "<group>"; };
+		845A123A1CEB4717000EA68B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		8495C5901CA2F44D00300957 /* OMCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCoreDataManager.h; sourceTree = "<group>"; };
+		8495C5911CA2F44D00300957 /* OMCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCoreDataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840D22C21CA01EB1008FB3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840D22BC1CA01EB1008FB3FD = {
+			isa = PBXGroup;
+			children = (
+				840D22C71CA01EB1008FB3FD /* CoreDataTest2 */,
+				840D22C61CA01EB1008FB3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840D22C61CA01EB1008FB3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840D22C51CA01EB1008FB3FD /* CoreDataTest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840D22C71CA01EB1008FB3FD /* CoreDataTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				840D22E81CA021B6008FB3FD /* Model */,
+				840D22CB1CA01EB1008FB3FD /* AppDelegate.h */,
+				840D22CC1CA01EB1008FB3FD /* AppDelegate.m */,
+				845A123A1CEB4717000EA68B /* Header.h */,
+				840D22CE1CA01EB1008FB3FD /* ViewController.h */,
+				840D22CF1CA01EB1008FB3FD /* ViewController.m */,
+				8495C5901CA2F44D00300957 /* OMCoreDataManager.h */,
+				8495C5911CA2F44D00300957 /* OMCoreDataManager.m */,
+				844FACCF1CA499E30039E8CC /* OMCoreDataViewController.h */,
+				844FACD01CA499E30039E8CC /* OMCoreDataViewController.m */,
+				844FACCC1CA498400039E8CC /* OMUniversitiesViewController.h */,
+				844FACCD1CA498400039E8CC /* OMUniversitiesViewController.m */,
+				844FACD21CA4A6230039E8CC /* OMCoursesViewController.h */,
+				844FACD31CA4A6230039E8CC /* OMCoursesViewController.m */,
+				844FACD51CA4AC750039E8CC /* OMStudentsViewController.h */,
+				844FACD61CA4AC750039E8CC /* OMStudentsViewController.m */,
+				840D22D11CA01EB1008FB3FD /* Main.storyboard */,
+				840D22D91CA01EB1008FB3FD /* LaunchScreen.storyboard */,
+				840D22DC1CA01EB1008FB3FD /* Info.plist */,
+				840D22D71CA01EB1008FB3FD /* Assets.xcassets */,
+				840D22D41CA01EB1008FB3FD /* CoreDataTest2.xcdatamodeld */,
+				840D22C81CA01EB1008FB3FD /* Supporting Files */,
+			);
+			path = CoreDataTest2;
+			sourceTree = "<group>";
+		};
+		840D22C81CA01EB1008FB3FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840D22C91CA01EB1008FB3FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840D22E81CA021B6008FB3FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840D22F51CA023EA008FB3FD /* OMStudent+CoreDataProperties.h */,
+				840D22F61CA023EA008FB3FD /* OMStudent+CoreDataProperties.m */,
+				840D22F71CA023EA008FB3FD /* OMStudent.h */,
+				840D22F81CA023EA008FB3FD /* OMStudent.m */,
+				84569D3B1CA04C6D003528BD /* OMCar+CoreDataProperties.h */,
+				84569D3C1CA04C6D003528BD /* OMCar+CoreDataProperties.m */,
+				84569D3D1CA04C6D003528BD /* OMCar.h */,
+				84569D3E1CA04C6D003528BD /* OMCar.m */,
+				844D4A281CA0A2CF00622C5A /* OMObject+CoreDataProperties.h */,
+				844D4A291CA0A2CF00622C5A /* OMObject+CoreDataProperties.m */,
+				844D4A2A1CA0A2CF00622C5A /* OMObject.h */,
+				844D4A2B1CA0A2CF00622C5A /* OMObject.m */,
+				8448EE3F1CA135B40086E711 /* OMUniversity+CoreDataProperties.h */,
+				8448EE401CA135B40086E711 /* OMUniversity+CoreDataProperties.m */,
+				8448EE411CA135B40086E711 /* OMUniversity.h */,
+				8448EE421CA135B40086E711 /* OMUniversity.m */,
+				8448EE451CA142E20086E711 /* OMCourse+CoreDataProperties.h */,
+				8448EE461CA142E20086E711 /* OMCourse+CoreDataProperties.m */,
+				8448EE471CA142E20086E711 /* OMCourse.h */,
+				8448EE481CA142E20086E711 /* OMCourse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840D22C41CA01EB1008FB3FD /* CoreDataTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D22DF1CA01EB1008FB3FD /* Build configuration list for PBXNativeTarget "CoreDataTest2" */;
+			buildPhases = (
+				840D22C11CA01EB1008FB3FD /* Sources */,
+				840D22C21CA01EB1008FB3FD /* Frameworks */,
+				840D22C31CA01EB1008FB3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataTest2;
+			productName = CoreDataTest2;
+			productReference = 840D22C51CA01EB1008FB3FD /* CoreDataTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840D22BD1CA01EB1008FB3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					840D22C41CA01EB1008FB3FD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 840D22C01CA01EB1008FB3FD /* Build configuration list for PBXProject "CoreDataTest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840D22BC1CA01EB1008FB3FD;
+			productRefGroup = 840D22C61CA01EB1008FB3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840D22C41CA01EB1008FB3FD /* CoreDataTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840D22C31CA01EB1008FB3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840D22DB1CA01EB1008FB3FD /* LaunchScreen.storyboard in Resources */,
+				840D22D81CA01EB1008FB3FD /* Assets.xcassets in Resources */,
+				840D22D31CA01EB1008FB3FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840D22C11CA01EB1008FB3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844FACD71CA4AC750039E8CC /* OMStudentsViewController.m in Sources */,
+				8448EE491CA142E20086E711 /* OMCourse+CoreDataProperties.m in Sources */,
+				840D22D01CA01EB1008FB3FD /* ViewController.m in Sources */,
+				8448EE4A1CA142E20086E711 /* OMCourse.m in Sources */,
+				840D22CD1CA01EB1008FB3FD /* AppDelegate.m in Sources */,
+				844FACCE1CA498400039E8CC /* OMUniversitiesViewController.m in Sources */,
+				844D4A2C1CA0A2CF00622C5A /* OMObject+CoreDataProperties.m in Sources */,
+				8448EE441CA135B40086E711 /* OMUniversity.m in Sources */,
+				840D22CA1CA01EB1008FB3FD /* main.m in Sources */,
+				84569D3F1CA04C6D003528BD /* OMCar+CoreDataProperties.m in Sources */,
+				844FACD41CA4A6230039E8CC /* OMCoursesViewController.m in Sources */,
+				844FACD11CA499E30039E8CC /* OMCoreDataViewController.m in Sources */,
+				8448EE431CA135B40086E711 /* OMUniversity+CoreDataProperties.m in Sources */,
+				8495C5921CA2F44D00300957 /* OMCoreDataManager.m in Sources */,
+				84569D401CA04C6D003528BD /* OMCar.m in Sources */,
+				840D22FA1CA023EA008FB3FD /* OMStudent.m in Sources */,
+				840D22D61CA01EB1008FB3FD /* CoreDataTest2.xcdatamodeld in Sources */,
+				844D4A2D1CA0A2CF00622C5A /* OMObject.m in Sources */,
+				840D22F91CA023EA008FB3FD /* OMStudent+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840D22D11CA01EB1008FB3FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840D22D21CA01EB1008FB3FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840D22D91CA01EB1008FB3FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840D22DA1CA01EB1008FB3FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840D22DD1CA01EB1008FB3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840D22DE1CA01EB1008FB3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840D22E01CA01EB1008FB3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreDataTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.CoreDataTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840D22E11CA01EB1008FB3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreDataTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orestm.CoreDataTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840D22C01CA01EB1008FB3FD /* Build configuration list for PBXProject "CoreDataTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D22DD1CA01EB1008FB3FD /* Debug */,
+				840D22DE1CA01EB1008FB3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D22DF1CA01EB1008FB3FD /* Build configuration list for PBXNativeTarget "CoreDataTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D22E01CA01EB1008FB3FD /* Debug */,
+				840D22E11CA01EB1008FB3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		840D22D41CA01EB1008FB3FD /* CoreDataTest2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				840D22D51CA01EB1008FB3FD /* CoreDataTest2.xcdatamodel */,
+			);
+			currentVersion = 840D22D51CA01EB1008FB3FD /* CoreDataTest2.xcdatamodel */;
+			path = CoreDataTest2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 840D22BD1CA01EB1008FB3FD /* Project object */;
+}
