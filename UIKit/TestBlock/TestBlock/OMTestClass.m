@@ -7,15 +7,32 @@
 //
 
 #import "OMTestClass.h"
+#import "ViewController.h"
 
 @implementation OMTestClass
 
-- (void)getText:(NSString *(^)(void))block {
-    
-    NSString *addText = @"Hi";
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showText:) name:@"passTxt" object:nil];
+    }
+    return self;
+}
+
+- (void)getText:(TestBlock)text {
    
-    NSLog(@"%@ %@", addText, block());
+    NSString *hi = @"Hi";
+    text(hi);
     
+}
+
+- (void)showText:(NSNotification *)notification {
+    NSLog(@"%@", notification.object);
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    NSLog(@"dealloc");
 }
 
 @end

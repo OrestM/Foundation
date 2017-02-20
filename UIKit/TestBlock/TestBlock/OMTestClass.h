@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-//typedef NSString *(^TestBlock)(void);
+typedef void(^TestBlock)(NSString *text);
 
 @interface OMTestClass : NSObject
 
-- (void)getText:(NSString *(^)(void))block;
+- (void)getText:(TestBlock)text;
 
 @end

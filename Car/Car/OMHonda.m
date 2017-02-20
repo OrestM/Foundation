@@ -12,8 +12,7 @@
 
 @synthesize carModel = _carModel, carVolumeMotor = _carVolumeMotor, carWhels = _carWhels, carDoors = _carDoors;
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     
     if (self) {

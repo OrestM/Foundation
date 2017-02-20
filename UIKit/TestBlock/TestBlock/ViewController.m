@@ -26,9 +26,11 @@
     
     OMTestClass *test = [[OMTestClass alloc] init];
     
-    [test getText:^NSString *{
-        return self.textField.text;
+    [test getText:^(NSString *text) {
+        self.textField.text = [NSString stringWithFormat:@"%@ %@", text, self.textField.text];
     }];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"passTxt" object:self.textField.text];
     
 }
 

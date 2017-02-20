@@ -18,7 +18,7 @@
 
 - (void)printAge {
     
-    NSLog(@"\nYour age: %ld", self.age);
+    NSLog(@"\nYour current age: %ld", self.age);
     
 }
 

@@ -56,7 +56,7 @@
 - (void)changeName {
     
     [self willChangeValueForKey:@"name"];
-    _name = @"FakeName";
+    _name = [self valueForKey:@"name"];
     [self didChangeValueForKey:@"name"];
     
 }

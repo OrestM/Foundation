@@ -12,7 +12,7 @@
 
 @interface AppDelegate ()
 
-//@property (strong, nonatomic) OMStudent *student;
+@property (strong, nonatomic) OMStudent *student;
 @property (strong, nonatomic) NSArray *groups;
 
 @end
@@ -21,7 +21,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    /*
+    
     OMStudent *student = [[OMStudent alloc] init];
     
     [student addObserver:self forKeyPath:@"name" options: NSKeyValueObservingOptionNew |
@@ -44,11 +44,10 @@
     NSLog(@"%@", student);
     
     self.student = student;
-    */
     
-    OMStudent *student = [[OMStudent alloc] init];
-    student.name = @"Orest";
-    student.age = 20;
+//    OMStudent *student = [[OMStudent alloc] init];
+//    student.name = @"Orest";
+//    student.age = 20;
     
     OMStudent *student1 = [[OMStudent alloc] init];
     student1.name = @"Roger";
@@ -134,10 +133,8 @@
 
 #pragma mark - Observing
 
-- (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSString*, id> *)change context:(nullable void *)context {
-    
-    NSLog(@"observeValueForKeyPath: %@\nofObject: %@\nchange: %@", keyPath, object, change);    
-    
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    NSLog(@"observeValueForKeyPath: %@\nofObject: %@\nchange: %@", keyPath, object, change);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -32,7 +32,7 @@
 
 - (void)printCurrentDate {
     
-    NSLog(@"\nYour current date: %@", [self calculateDateBirthday]);
+    NSLog(@"\nYour birth of date: %@", [self calculateDateBirthday]);
     
 }
 

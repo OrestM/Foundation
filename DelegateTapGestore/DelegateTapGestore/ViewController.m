@@ -21,13 +21,19 @@
     [super viewDidLoad];
     
     OMBonusView *view = [[OMBonusView alloc] init];
-    [view addGestureRecognizer:self.view];
     [self.view addSubview:view];
     
     view.delegate = self;
     
+    UITapGestureRecognizer *tappedGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(changeText)];
+    [self.view addGestureRecognizer:tappedGesture];
+    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didPressTap) name:@"Tap" object:nil];
         
+}
+
+- (void)changeText {
+    self.textLabel.text = @"Show text main view";
 }
 
 - (void)didPressTap {

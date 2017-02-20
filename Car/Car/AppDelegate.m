@@ -22,11 +22,11 @@
     // Override point for customization after application launch.
     
     OMHonda *honda = [[OMHonda alloc] init];
-    NSLog(@"%@", honda);
+    NSLog(@"%@", honda.description);
     [honda ifNeedChangeOil:arc4random_uniform(2)];
     
     OMToyota *toyota = [[OMToyota alloc] init];
-    NSLog(@"%@", toyota);
+    NSLog(@"%@", toyota.description);
     [toyota ifNeedChangeOil:arc4random_uniform(2)];
     
     return YES;

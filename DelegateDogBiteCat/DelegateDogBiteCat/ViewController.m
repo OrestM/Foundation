@@ -12,7 +12,8 @@
 
 @interface ViewController () <OMDogDelegate>
 
-@property (strong, nonatomic) UIAlertController *alert;
+@property (strong, nonatomic) OMDog *dog;
+@property (strong, nonatomic) OMCat *cat;
 
 @end
 
@@ -21,18 +22,16 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    OMDog *dog = [[OMDog alloc] init];
-    OMCat *cat = [[OMCat alloc] init];
+    _dog = [[OMDog alloc] init];
+    _cat = [[OMCat alloc] init];
     
-    dog.delegate = self;
-    
-    [dog dogBiteCat:cat];
+    _dog.delegate = self;
     
 }
 
 - (void)showMessage:(NSString *)message withTitle:(NSString *)title {
     
-    self.alert =
+    UIAlertController *alert =
     [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *actionOk = [UIAlertAction actionWithTitle:@"Ok!" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -41,9 +40,15 @@
         
     }];
     
-    [self.alert addAction:actionOk];
+    [alert addAction:actionOk];
     
-    [self presentViewController:self.alert animated:YES completion:nil];
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+- (IBAction)actionTap:(id)sender {
+    
+    [_dog dogBiteCat:_cat];
     
 }
 

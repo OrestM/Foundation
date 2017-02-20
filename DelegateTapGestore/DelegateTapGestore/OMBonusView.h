@@ -10,11 +10,9 @@
 
 @protocol OMBonusViewDelegate;
 
-@interface OMBonusView : UIView
+@interface OMBonusView: UIView
 
 @property (weak, nonatomic) id<OMBonusViewDelegate> delegate;
-
-- (void)addGestureRecognizer:(UIView *)touchView;
 
 @end
 

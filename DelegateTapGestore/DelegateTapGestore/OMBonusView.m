@@ -10,20 +10,13 @@
 
 @implementation OMBonusView
 
-- (void)addGestureRecognizer:(UIView *)touchView {
-    
-    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap)];
-    [touchView addGestureRecognizer:tapGesture];
-
-}
-
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
+- (instancetype)init {
+    self = [super init];
     if (self) {
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 50, 50)];
-        view.backgroundColor = [UIColor yellowColor];
-        [self addSubview:view];
+        self.frame = CGRectMake(20, 20, 50, 50);
+        self.backgroundColor = [UIColor yellowColor];
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap)];
+        [self addGestureRecognizer:tapGesture];
     }
     return self;
 }
