@@ -13,6 +13,7 @@
 		4D5344221EABE3D8001ED7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5344201EABE3D8001ED7CA /* Main.storyboard */; };
 		4D5344241EABE3D8001ED7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5344231EABE3D8001ED7CA /* Assets.xcassets */; };
 		4D5344271EABE3D8001ED7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5344251EABE3D8001ED7CA /* LaunchScreen.storyboard */; };
+		4DF84A281EACBE1100BD3894 /* TextForPdf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF84A271EACBE1100BD3894 /* TextForPdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D5344231EABE3D8001ED7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5344261EABE3D8001ED7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5344281EABE3D8001ED7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF84A271EACBE1100BD3894 /* TextForPdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextForPdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4D5344161EABE3D8001ED7CA /* CreatePdfFile */ = {
 			isa = PBXGroup;
 			children = (
+				4DF84A271EACBE1100BD3894 /* TextForPdf */,
 				4D53441A1EABE3D8001ED7CA /* AppDelegate.h */,
 				4D53441B1EABE3D8001ED7CA /* AppDelegate.m */,
 				4D53441D1EABE3D8001ED7CA /* ViewController.h */,
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF84A281EACBE1100BD3894 /* TextForPdf in Resources */,
 				4D5344271EABE3D8001ED7CA /* LaunchScreen.storyboard in Resources */,
 				4D5344241EABE3D8001ED7CA /* Assets.xcassets in Resources */,
 				4D5344221EABE3D8001ED7CA /* Main.storyboard in Resources */,
@@ -311,6 +315,7 @@
 				4D53442D1EABE3D8001ED7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
